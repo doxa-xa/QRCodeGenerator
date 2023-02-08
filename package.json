@@ -1,0 +1,17 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "generates qr codes from links",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stoyan Todorov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "qrcode": "^1.5.1"
+  }
+}
